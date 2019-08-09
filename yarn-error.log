@@ -1,0 +1,69 @@
+Arguments: 
+  /usr/local/bin/node /Users/satansdeersatansdeer/.yarn/bin/yarn.js test:debug
+
+PATH: 
+  /usr/local/opt/gettext/bin:/Users/satansdeersatansdeer/.opam/4.06.1/bin:/Users/satansdeersatansdeer/.yarn/bin:/Users/satansdeersatansdeer/.config/yarn/global/node_modules/.bin:/Users/satansdeersatansdeer/.rbenv/versions/2.4.2/bin/:/usr/local/opt/elasticsearch@5.6/bin:/usr/local/opt/libxml2/bin:/Users/satansdeersatansdeer/google-cloud-sdk/bin:/Users/satansdeersatansdeer/ansible/bin:/Users/satansdeersatansdeer/ansible/test/runner:/usr/local/opt/php71/bin:/usr/local/sbin:/Users/satansdeersatansdeer/.nvm/versions/node/v6.9.1/bin:/Users/satansdeersatansdeer/.rbenv/shims:./node_modules/.bin/:/Users/satansdeersatansdeer/go//bin:/Users/satansdeersatansdeer/bin:/usr/local/bin:/Users/satansdeersatansdeer/Flex3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin:/Users/satansdeersatansdeer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jekyll-3.5.2/bin:/Users/satansdeersatansdeer/Workspace/git-semantic-commits:/Users/satansdeersatansdeer/.yarn/bin:/Users/satansdeersatansdeer/.config/yarn/global/node_modules/.bin:/Users/satansdeersatansdeer/.rbenv/versions/2.4.2/bin/:/usr/local/opt/elasticsearch@5.6/bin:/usr/local/opt/libxml2/bin:/Users/satansdeersatansdeer/google-cloud-sdk/bin:/Users/satansdeersatansdeer/ansible/bin:/Users/satansdeersatansdeer/ansible/test/runner:/usr/local/opt/php71/bin:/usr/local/sbin:/Users/satansdeersatansdeer/.nvm/versions/node/v6.9.1/bin:/Users/satansdeersatansdeer/.rbenv/shims:./node_modules/.bin/:/Users/satansdeersatansdeer/go//bin:/Users/satansdeersatansdeer/bin:/usr/local/bin:/Users/satansdeersatansdeer/Flex3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin:/Users/satansdeersatansdeer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jekyll-3.5.2/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "webpack-react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "start": "webpack-dev-server --open --mode development",
+      "test": "jest",
+      "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.4.5",
+      "@babel/preset-env": "^7.4.5",
+      "@babel/preset-react": "^7.0.0",
+      "@testing-library/dom": "^5.6.1",
+      "@testing-library/react": "^8.0.9",
+      "babel-loader": "^8.0.6",
+      "html-webpack-plugin": "^3.2.0",
+      "webpack": "^4.35.0",
+      "webpack-dev-server": "^3.7.2"
+    },
+    "dependencies": {
+      "jest": "^24.8.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "webpack-cli": "^3.3.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c node --inspect node_modules/.bin/jest --runInBand
+  Directory: /Users/satansdeersatansdeer/Workspace/webpack-react
+  Output:
+  
+      at ProcessTermError.MessageError (/Users/satansdeersatansdeer/.yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/Users/satansdeersatansdeer/.yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/Users/satansdeersatansdeer/.yarn/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:182:13)
+      at maybeClose (internal/child_process.js:947:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:236:5)
